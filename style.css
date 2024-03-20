@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+}
+header .top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+header .top-nav .img-nav {
+  width: 10%;
+}
+header .top-nav ul {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .top-nav ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(73, 73, 154);
+  margin: 20px;
+}/*# sourceMappingURL=style.css.map */
