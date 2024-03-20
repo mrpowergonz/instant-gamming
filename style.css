@@ -1,6 +1,11 @@
+body {
+  background-color: rgb(36, 36, 36);
+}
+
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  background-color: rgb(66, 66, 66);
   align-items: center;
   width: 100%;
   height: 80px;
@@ -10,9 +15,13 @@ header .top-nav {
   align-items: center;
   justify-content: space-between;
   margin-top: 20px;
+  -webkit-text-size-adjust: 3.5em;
+     -moz-text-size-adjust: 3.5em;
+          text-size-adjust: 3.5em;
 }
 header .top-nav .img-nav {
-  width: 10%;
+  width: 32%;
+  margin-bottom: 19px;
 }
 header .top-nav ul {
   height: 100%;
